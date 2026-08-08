@@ -11,6 +11,8 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
+      scope: '/Mounjaro-Tracker/',
+      start_url: '/Mounjaro-Tracker/',
       manifest: {
         name: '猛見樂紀錄小幫手',
         short_name: '猛見樂紀錄',
