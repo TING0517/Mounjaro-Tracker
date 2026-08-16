@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Mounjaro-Tracker/sw.js', { scope: '/Mounjaro-Tracker/' })})}
